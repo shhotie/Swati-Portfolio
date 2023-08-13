@@ -90,7 +90,6 @@ section{
 }
 
 .home-img img {
-    width: 100%;
     height: auto;
     transition: opacity 0.3s ease;
   }
@@ -186,7 +185,7 @@ span{
 }
 
 .about-img img { 
-    /* width: 40vw; */
+     width: 40vw; 
     transition: transform 0.3s ease;
 }
 
