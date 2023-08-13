@@ -83,9 +83,21 @@ section{
 }
 
 .home-img{
-    width: 35vw;
+    /* width: 35vw;*/
     animation: floatImage 4s ease-in-out infinite;
+    position: relative;
+  display: inline-block;
 }
+
+.home-img img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+  }
+  
+  .home-img:hover img {
+    opacity: 0.8;
+  }
 
 @keyframes floatImage{
     0%{
@@ -168,8 +180,18 @@ span{
     background: var(--second-bg-color);
 }
 
+.about-img {
+    position: relative;
+    overflow: hidden;
+}
+
 .about-img img { 
-    width: 40vw;
+    /* width: 40vw; */
+    transition: transform 0.3s ease;
+}
+
+.about-img:hover img{
+    transform: scale(1.1);
 }
 
 .heading {
