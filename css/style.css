@@ -173,11 +173,6 @@ span{
     background: var(--second-bg-color);
 }
 
-.about-img {
-    position: relative;
-    overflow: hidden;
-}
-
 .about-img img { 
      width: 40vw; 
     transition: transform 0.3s ease;
